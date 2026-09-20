@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "D:/Tarik_etf/ZAVRSNI/Zadaci/LAB4/potenciometar_pwm/gowin/gowin/src/i2c_top.sv",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/Tarik_etf/ZAVRSNI/Zadaci/LAB4/potenciometar_pwm/gowin/gowin/src/i2c_top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Tarik_etf/ZAVRSNI/Zadaci/LAB4/potenciometar_pwm/gowin/gowin/src/i2c_top.sv",
+    "InstLine" : 42,
+    "InstName" : "u_i2c_ads1115",
+    "ModuleFile" : "D:/Tarik_etf/ZAVRSNI/Zadaci/LAB4/potenciometar_pwm/gowin/gowin/src/i2c_ctrl.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "i2c_ctrl"
+   }
+  ]
+ }
+]

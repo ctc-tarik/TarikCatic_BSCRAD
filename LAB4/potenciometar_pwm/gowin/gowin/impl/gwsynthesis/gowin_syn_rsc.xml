@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="36" Alu="7" Lut="59" T_Register="83(36)" T_Alu="7(7)" T_Lut="252(59)">
+ <SubModule name="u_i2c_ads1115" Register="47" Lut="193" T_Register="47(47)" T_Lut="193(193)"/>
+</Module>
