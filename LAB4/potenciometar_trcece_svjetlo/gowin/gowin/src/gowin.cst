@@ -1,0 +1,35 @@
+//Part Number: GW1NR-LV9QN88PC6/I5 (Sipeed Tang Nano 9K)
+//Constraints for top.sv: potentiometer (via ADS1115) -> onboard LED bargraph
+
+// Onboard 27 MHz oscillator
+IO_LOC  "clk" 52;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// Reset button S1 (active-low, has an onboard pull-up already but UP here doesn't hurt)
+IO_LOC  "areset_n" 4;
+IO_PORT "areset_n" IO_TYPE=LVCMOS18 PULL_MODE=UP;
+
+// Onboard LEDs (active-low)
+IO_LOC  "led[0]" 10;
+IO_PORT "led[0]" IO_TYPE=LVCMOS18 PULL_MODE=NONE;
+IO_LOC  "led[1]" 11;
+IO_PORT "led[1]" IO_TYPE=LVCMOS18 PULL_MODE=NONE;
+IO_LOC  "led[2]" 13;
+IO_PORT "led[2]" IO_TYPE=LVCMOS18 PULL_MODE=NONE;
+IO_LOC  "led[3]" 14;
+IO_PORT "led[3]" IO_TYPE=LVCMOS18 PULL_MODE=NONE;
+IO_LOC  "led[4]" 15;
+IO_PORT "led[4]" IO_TYPE=LVCMOS18 PULL_MODE=NONE;
+IO_LOC  "led[5]" 16;
+IO_PORT "led[5]" IO_TYPE=LVCMOS18 PULL_MODE=NONE;
+
+// I2C to the ADS1115 -- CHANGE these two pin numbers to match whichever
+// header pins you actually wired SDA/SCL to (these two, 31/32, are just
+// the pair used in Lushay Labs' Tang Nano 9K I2C/ADC tutorial).
+// ADS1115 breakout boards normally already have SDA/SCL pull-up
+// resistors built in (to their own VDD) -- power the ADS1115's VDD from
+// this board's 3V3 pin and you're set.
+IO_LOC  "i2c_sda" 31;
+IO_PORT "i2c_sda" IO_TYPE=LVCMOS33;
+IO_LOC  "i2c_scl" 32;
+IO_PORT "i2c_scl" IO_TYPE=LVCMOS33;

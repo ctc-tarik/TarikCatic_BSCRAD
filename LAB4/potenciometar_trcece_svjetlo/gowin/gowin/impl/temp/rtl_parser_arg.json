@@ -1,0 +1,21 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "D:/Tarik_etf/ZAVRSNI/Zadaci/LAB4/potenciometar_trcece_svjetlo/gowin/gowin/src/i2c_ctrl.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Tarik_etf/ZAVRSNI/Zadaci/LAB4/potenciometar_trcece_svjetlo/gowin/gowin/src/i2c_top.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Tarik_etf/ZAVRSNI/Zadaci/LAB4/potenciometar_trcece_svjetlo/gowin/gowin/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}
