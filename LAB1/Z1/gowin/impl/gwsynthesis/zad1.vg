@@ -1,0 +1,52 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.12 (64-bit)"
+//Wed Sep  9 00:18:52 2026
+
+//Source file index table:
+//file0 "\D:/Tarik_etf/ZAVRSNI/Zadaci/LAB1/Z1/gowin/src/zad1.sv"
+`timescale 100 ps/100 ps
+module zad1 (
+  A,
+  B,
+  C,
+  Y
+)
+;
+input A;
+input B;
+input C;
+output Y;
+wire A_d;
+wire C_d;
+wire Y_d;
+wire VCC;
+wire GND;
+  IBUF A_ibuf (
+    .O(A_d),
+    .I(A) 
+);
+  IBUF C_ibuf (
+    .O(C_d),
+    .I(C) 
+);
+  OBUF Y_obuf (
+    .O(Y),
+    .I(Y_d) 
+);
+  LUT2 Y_d_s (
+    .F(Y_d),
+    .I0(A_d),
+    .I1(C_d) 
+);
+defparam Y_d_s.INIT=4'h4;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* zad1 */
