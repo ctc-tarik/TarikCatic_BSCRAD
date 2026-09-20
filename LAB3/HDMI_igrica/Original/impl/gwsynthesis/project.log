@@ -1,0 +1,36 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\KLUB_FPGA\HDMI\Original\src\fpgatech_lib\GOWIN\fpga_oddr.sv'
+Analyzing Verilog file 'D:\KLUB_FPGA\HDMI\Original\src\fpgatech_lib\GOWIN\fpga_olvds.sv'
+Analyzing Verilog file 'D:\KLUB_FPGA\HDMI\Original\src\fpgatech_lib\GOWIN\fpga_oser10.sv'
+Analyzing Verilog file 'D:\KLUB_FPGA\HDMI\Original\src\fpgatech_lib\GOWIN\fpga_pll.sv'
+Analyzing Verilog file 'D:\KLUB_FPGA\HDMI\Original\src\hdmi_pkg.sv'
+Analyzing Verilog file 'D:\KLUB_FPGA\HDMI\Original\src\hdmi_backend.sv'
+Analyzing Verilog file 'D:\KLUB_FPGA\HDMI\Original\src\hdmi_tdms_enc.sv'
+Analyzing Verilog file 'D:\KLUB_FPGA\HDMI\Original\src\top.sv'
+Compiling module 'top'("D:\KLUB_FPGA\HDMI\Original\src\top.sv":25)
+Compiling module 'hdmi_backend'("D:\KLUB_FPGA\HDMI\Original\src\hdmi_backend.sv":23)
+Compiling module 'fpga_pll'("D:\KLUB_FPGA\HDMI\Original\src\fpgatech_lib\GOWIN\fpga_pll.sv":28)
+Compiling module 'hdmi_tdms_enc'("D:\KLUB_FPGA\HDMI\Original\src\hdmi_tdms_enc.sv":19)
+Compiling module 'fpga_oser10'("D:\KLUB_FPGA\HDMI\Original\src\fpgatech_lib\GOWIN\fpga_oser10.sv":17)
+Compiling module 'fpga_olvds'("D:\KLUB_FPGA\HDMI\Original\src\fpgatech_lib\GOWIN\fpga_olvds.sv":17)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\KLUB_FPGA\HDMI\Original\impl\gwsynthesis\project.vg" completed
+[100%] Generate report file "D:\KLUB_FPGA\HDMI\Original\impl\gwsynthesis\project_syn.rpt.html" completed
+GowinSynthesis finish

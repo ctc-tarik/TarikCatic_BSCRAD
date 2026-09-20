@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="12" Alu="11" Lut="46" MULTADDALU18X18="1" T_Register="70(12)" T_Alu="11(11)" T_Lut="153(46)" T_MULTADDALU18X18="1(1)">
+ <SubModule name="u_hdmi_backend" Register="34" Lut="70" T_Register="58(34)" T_Lut="107(70)">
+  <SubModule name="u_fpga_pll" Register="2" Lut="1" T_Register="2(2)" T_Lut="1(1)"/>
+  <SubModule name="_tdms_sdat[0].u_tmds" Register="8" Lut="13" T_Register="8(8)" T_Lut="13(13)"/>
+  <SubModule name="_tdms_sdat[0].u_oser_dat"/>
+  <SubModule name="_tdms_sdat[0].u_obuf_dat"/>
+  <SubModule name="_tdms_sdat[1].u_tmds" Register="6" Lut="4" T_Register="6(6)" T_Lut="4(4)"/>
+  <SubModule name="_tdms_sdat[1].u_oser_dat"/>
+  <SubModule name="_tdms_sdat[1].u_obuf_dat"/>
+  <SubModule name="_tdms_sdat[2].u_tmds" Register="8" Lut="19" T_Register="8(8)" T_Lut="19(19)"/>
+  <SubModule name="_tdms_sdat[2].u_oser_dat"/>
+  <SubModule name="_tdms_sdat[2].u_obuf_dat"/>
+  <SubModule name="u_oser_clk"/>
+  <SubModule name="u_obuf_clk"/>
+ </SubModule>
+</Module>
