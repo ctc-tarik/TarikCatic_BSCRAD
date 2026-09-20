@@ -1,0 +1,45 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "D:/KLUB_FPGA/HDMI_napredna_igrica/Original/src/fpgatech_lib/GOWIN/fpga_oddr.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/KLUB_FPGA/HDMI_napredna_igrica/Original/src/fpgatech_lib/GOWIN/fpga_olvds.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/KLUB_FPGA/HDMI_napredna_igrica/Original/src/fpgatech_lib/GOWIN/fpga_oser10.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/KLUB_FPGA/HDMI_napredna_igrica/Original/src/fpgatech_lib/GOWIN/fpga_pll.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/KLUB_FPGA/HDMI_napredna_igrica/Original/src/hdmi_backend.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/KLUB_FPGA/HDMI_napredna_igrica/Original/src/hdmi_pkg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/KLUB_FPGA/HDMI_napredna_igrica/Original/src/hdmi_tdms_enc.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/KLUB_FPGA/HDMI_napredna_igrica/Original/src/top.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/KLUB_FPGA/HDMI_napredna_igrica/Original/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_2008"
+}
